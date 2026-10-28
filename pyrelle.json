@@ -1,0 +1,21 @@
+{
+    "version": "2.1.15",
+    "description": "Pyrelle - AI development assistant: chat, pair-programming and fully autonomous task execution.",
+    "homepage": "https://github.com/rockyCheung/Pyrelle",
+    "license": "Proprietary",
+    "url": "https://github.com/rockyCheung/Pyrelle/releases/download/v2.1.15/Pyrelle.Setup.2.1.15.exe",
+    "hash": "e8ab500cfc38465b0e9a70e8a3d840f95e0bc37c1d1a68ba2a84af05bbcf0f00",
+    "innosetup": false,
+    "installer": {
+        "args": ["/S"]
+    },
+    "bin": [
+        ["Pyrelle.exe", "pyrelle"]
+    ],
+    "checkver": {
+        "github": "https://github.com/rockyCheung/Pyrelle"
+    },
+    "autoupdate": {
+        "url": "https://github.com/rockyCheung/Pyrelle/releases/download/v$version/Pyrelle.Setup.$version.exe"
+    }
+}
